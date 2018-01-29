@@ -25,7 +25,7 @@ $("#letsSeeWhoYouBe").click(function() {
 		document.location.href = "page1237.html"
 	}
 	if (inputID == managerIds[4]) {
-		document.location.href = "regional_manager_11.html"
+		document.location.href = "regional_manager_trial11.html"
 	}
   //alert("Handler for .click() called.");
   /*console.log(inputID)

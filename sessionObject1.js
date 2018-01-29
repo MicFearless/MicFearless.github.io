@@ -392,6 +392,9 @@ $("#setProperties1").click(function(){
 	cccc++
 	if (cccc > 3) {
 		$("#setProperties2").show()
+		$("#sendRecord5").show()
+		$("#sendRecord6").show()
+		$("#sendRecord7").show()
 		console.log("its greater than three")
 	}
 });
@@ -479,6 +482,9 @@ $("#setProperties3").click(function(){
 	cccc++
 	if (cccc > 3) {
 		$("#setProperties2").show()
+		$("#sendRecord5").show()
+		$("#sendRecord6").show()
+		$("#sendRecord7").show()
 		console.log("its greater than three")
 	}
 	 /*let goochi3
@@ -548,6 +554,9 @@ $("#setProperties4").click(function(){
 	cccc++
 	if (cccc > 3) {
 		$("#setProperties2").show()
+		$("#sendRecord5").show()
+		$("#sendRecord6").show()
+		$("#sendRecord7").show()
 		console.log("its greater than three")
 	}
 	/*$("topIntro1").html(storeRecord.storeRecord.Temp)*/
@@ -580,6 +589,9 @@ $("#vvvv").click(function(){
 	cccc++
 	if (cccc > 3) {
 		$("#setProperties2").show()
+		$("#sendRecord5").show()
+		$("#sendRecord6").show()
+		$("#sendRecord7").show()
 		console.log("its greater than three")
 	}
 });

@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Popeye's Fried Chicken</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="andrewjs.js"></script>
+  <script type="text/javascript" src="sessionObject11.js"></script>
+<link href="https://fonts.googleapis.com/css?family=carter+one" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="projectcss11.css">
+</head>
+<body>
+<div class = "row container-fluid" id= "regManagerTop">Regional Manager Review Portal</div>
+<!-- <div class ="row"><div class = "col-md-6">Store Report: </div><div class = col-md-6 id = "propegationBlock"></div></div> -->
+
+<!-- <div class = "row" id = "storeSelection"><div class ="col-md-4" id = "selec1"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#store1234"> Store 1234</button></div><div class = "col-md-4" id ="selec2"><button type= "button" class = "btn" id = "str1235">Store 1235</button></div><div class ="col-md-4" id = "selec3"><button id = "str1236">Store 1236</button></div> -->
+<!-- <div class="modal fade modal-lg" id="store1234" tabindex="-1" role="dialog" aria-labelledby="dailyTasksModal1" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="dailyTasksModal1">Morning Tasks</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" id="mdlbdy"> -->
+       
+    
+   
+    <table class="table table-bordered" id="salesForecast">
+        <thead>
+            <tr>
+                <th></th>
+                <th scope="col">Last Year</th>
+                <th scope="col">Forecast</th>
+                <th scope="col">Open - 4pm</th>
+                <th scope="col">4pm - Close</th>
+                <th scope="col">Daily Totals</th>
+                <th scope="col">Last Week</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Sales</th>
+                <td id="12340"></td>
+                <td id="12341"></td>
+                <td id="12342"></td>
+                <td id="12343"></td>
+                <td id="12344"></td>
+                <td id="12345"></td>
+            </tr>
+            <tr>
+                <th scope="row">Labor %</th>
+                <td id="12346"></td>
+                <td id="12347"></td>
+                <td id="12348"></td>
+                <td id="12349"></td>
+                <td id="123410"></td>
+                <td id="123411"></td>
+            </tr>
+            <tr>
+                <th scope="row">Labor Hrs</th>
+                <td id="123412"></td>
+                <td id="123413"></td>
+                <td id="123414"></td>
+                <td id="123415"></td>
+                <td id="123416"></td>
+                <td id="123417"></td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>Morning Cleaning Checklist</h3>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th scope="col">Service Areas</th>
+                <th scope="col">Prep and Dish Areas</th>
+                <th scope="col">Batter Fry and Walk-in Coolers</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="123418"></td><td>OrganizeWindows, Doors and Thresholds Cleaned</td>
+                <td id="123419"></td><td>OrganizeSmallware Washed, Sanitized and In Position</td>
+                <td id="123420"></td><td>OrganizeWalk-ins: Organize and Clean Shelving and Floors</td>
+            </tr>
+            <tr>
+                <td id="123421"></td><td>OrganizeTables, Chairs and Light Fixtures Clean</td>
+                <td id="123422"></td><td>OrganizeSmall and Large Side Cups Stocked</td>
+                <td id="123423"></td><td>Organize Stock Room and Clean Floors</td>
+            </tr>
+            <tr>
+                <td id="123424"></td><td>Organize Bathrooms Cleaned and Stocked</td>
+                <td id="123425"></td><td>OrganizeFloors Cleaned and Garbage Changed</td>
+                <td id="123426"></td><td>OrganizeClean and Organize Mop Sink Areas</td>
+            </tr>
+            <tr>
+                <td id="123427"></td><td>OrganizeBev Station and Garbage Cans Clean</td>
+                <td id="123428"></td><td>OrganizeMicrowaves, CVAP and Chubb Holder Clean</td>
+                <td id="123429"></td><td>OrganizeBatter Station Clean with Parts on Station; Walls</td>
+            </tr>
+            <tr>
+                <td id="123430"></td><td>OrganizeCashier Counter and POS Clean (DT if Applicable)</td>
+                <td id="123431"></td><td>OrganizeWipe Down Ice Machine</td>
+                <td id="123432"></td><td>OrganizeFTF Freezer Gaskets, Shelves and Bottom Clean</td>
+            </tr>
+            <tr>
+                <td id="123433"></td><td>OrganizeSauces and Paper Goods Stocked (DT if Applicable)</td>
+                <td id="123434"></td><td>OrganizePrep and 3 Comp Sinks are Clean</td>
+                <td id="123435"></td><td>OrganizeFryer Clean: Sides, Back, Vents, Filter Pan</td>
+            </tr>
+            <tr>
+                <td id="123436"></td><td>OrganizeSmallwares Washed, Sanitized and In Position</td>
+                <td1234 id="123437"></td><td>OrganizePans Clean and Properly Draining</td>
+                <td id="123438"></td><td>OrganizeBird Cage and The Heating Elements Clean</td>
+            </tr>
+            <tr>
+                <td id="123439"></td><td>OrganizeSoda Nozzle Cleaned</td>
+                <td id="123440"></td><td>OrganizeAll Floor Drains Clean</td>
+                <td id="123441"></td><td>OrganizeSoap and Papertowels at All Handsticks Stocked</td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-striped">
+        <tbody>
+            <tr>
+                <td>Opening Manager Initials:</td>
+                <td id="123442"></input></td>
+                <td>Shift Change Manager Initials:</td>
+                <td id="123443"></input></td>
+                <td>Closing Manager Intials:</td>
+                <td id="123444"></input></td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>Image Calendar</h3>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Crew</th>
+                <th>Mgmt</th>
+                <th>Cleaning Duties</th>
+                <th>Crew</th>
+                <th>Mgmt</th>
+                <th>Cleaning Duties</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="123445"></td>
+                <td id="123446"></td>
+                <td>Clean all cooler shelves</td>
+                <td id="123447"></td>
+                <td id="123448"></td>
+                <td>Detail clean exterior biscuit oven</td>
+            </tr>
+            <tr>
+                <td id="123449"></td>
+                <td id="123450"></td>
+                <td>Clean and organize shelves in prep area</td>
+                <td id="123451"></td>
+                <td id="123452"></td>
+                <td>Deck scrub lobby floors and restrooms</td>
+            </tr>
+            <tr>
+                <td id="123453"></td>
+                <td id="123454"></td>
+                <td>Organize office area</td>
+                <td id="123455"></td>
+                <td id="123456"></td>
+                <td>Scrub walls in walk-in cooler</td>
+            </tr>
+            <tr>
+                <td id="123457"></td>
+                <td id="123458"></td>
+                <td>Clean gaskets on reach-in freezers and refrigerator</td>
+                <td id="123459"></td>
+                <td id="123460"></td>
+                <td>Clean evaporator coils on all refrigeration</td>
+            </tr>
+            <tr>
+                <td id="123461"></td>
+                <td id="123462"></td>
+                <td>Polish all stainless steel in service area</td>
+            </tr>
+            <tr>
+                <td id="123463"></td>
+                <td id="123464"></td>
+                <td>Clean high chairs</td>
+            </tr>
+        </tbody>
+    </table>
+     <h1 id="Templog">Popeyes Food Excellence and HACCP Log</h1>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Opening</a>
+    <a class="dropdown-item" href="#">2PM-3PM</a>
+    <a class="dropdown-item" href="#">7PM-8PM</a>
+    <a class="dropdown-item" href="#">Closing</a>
+  </div>
+</div>
+
+<br/>
+  <!-- My table graft -->
+<table class="table table-striped" id="foodTable">
+
+  <!-- Coolers layout. ids for Temp,AC, and Initials table are cTemp,cAC,cInitials[1,2,3,4,5,6,7] -->   
+<div id="Coolers">  
+  <thead >
+    <tr>
+      <th scope="col">Coolers</th>
+      <th scope="col">Temp</th>
+      <th scope="col">AC</th>
+      <th scope="col">Initials</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Sandwich cooler [34-40ºF]</th>
+      <td  id="123465"></td>
+      <td  id="123466"></td>
+      <td  id="123467"></td>
+    </tr>
+    <tr>
+      <th scope="row">Buiscuit cooler [34-40ºF]</th>
+      <td  id="123468"></td>
+      <td  id="123469"></td>
+      <td id="123470"></td>
+    </tr>
+    <tr>
+      <th scope="row">Reach-in cooler [34-40ºF]</th>
+      <td  id="123471"></td>
+      <td  id="123472"></td>
+      <td  id="123473"></td>
+    </tr>
+    <tr>
+      <th scope="row">Walk-in cooler  [34-40ºF]</th>
+      <td  id="123474"></td>
+      <td  id="123475"></td>
+      <td  id="123476"></td>
+    </tr>
+    <tr>
+      <th scope="row">Seasoned chicken  [34-40ºF]</th>
+      <td  id="123477"></td>
+      <td  id="123478"></td>
+      <td  id="123479"></td>
+    </tr>
+    <tr>
+      <th scope="row">Tenders [34-40ºF]</th>
+      <td  id="123480"></td>
+      <td  id="123481"></td>
+      <td  id="123482"></td>
+    </tr>
+    <tr>
+      <th scope="row">Cole Slaw [34-40ºF]</th>
+      <td  id="123483"></td>
+      <td  id="123484"></td>
+      <td  id="123485"></td>
+    </tr>
+ </div>
+
+ <!-- Freezers layout. ids for Temp,AC, and Initials table are fTemp,fAC,fInitials[1,2] -->
+ <div id="Freezers">
+   <thead>
+    <tr>
+      <th scope="col">Freezers</th>
+      <th scope="col">Temp</th>
+      <th scope="col">AC</th>
+      <th scope="col">Initials</th>
+    </tr>
+  </thead>
+    <tr>
+      <th scope="row">Reach-in freezer  [-10º-0ºF]</th>
+      <td  id="123486"></td>
+      <td  id="123487"></td>
+      <td  id="123488"></td>
+    </tr>
+    <tr>
+      <th scope="row">Walk-in freezer [-10º-0ºF]</th>
+      <td  id="123489"></td>
+      <td  id="123490"></td>
+      <td  id="123491"></td>
+    </tr>
+ </div>
+
+ <!-- HeatedEquipment layout. ids for Temp,AC, and Initials table are heTemp,heAC,heInitials[1,2,3,4,5,6,7,8,9] -->
+ <div id="HeatedEquipment">
+    <thead>
+    <tr>
+      <th scope="col">Heated Equipment</th>
+      <th scope="col">Temp</th>
+      <th scope="col">AC</th>
+      <th scope="col">Initials</th>
+    </tr>
+  </thead>
+    <tr>
+      <th scope="row">CVAP [160ºF] Temp 160 - Texture 10</th>
+      <td  id="123492"></td>
+      <td  id="123493"></td>
+      <td  id="123494"></td>
+    </tr>
+    <tr>
+      <th scope="row">Steamtable [170ºF]</th>
+      <td  id="123495"></td>
+      <td  id="123496"></td>
+      <td  id="123497"></td>
+    </tr>
+    <tr>
+      <th scope="row">Mild fryer 1 [340ºF gas, 330ºF electric]</th>
+      <td  id="123498"></td>
+      <td  id="123499"></td>
+      <td  id="1234100"></td>
+    </tr>
+    <tr>
+      <th scope="row">Mild fryer 2 [340ºF gas, 330ºF electric]</th>
+      <td  id="1234101"></td>
+      <td  id="1234102"></td>
+      <td  id="1234103"></td>
+    </tr>
+    <tr>
+      <th scope="row">Spicy fryer 1 [340ºF gas, 330ºF electric]</th>
+      <td  id="1234104"></td>
+      <td  id="1234105"></td>
+      <td  id="1234106"></td>
+    </tr>
+    <tr>
+      <th scope="row">Spicy fryer 2 [340ºF gas, 330ºF electric]</th>
+      <td  id="1234107"></td>
+      <td  id="1234108"></td>
+      <td  id="1234109"></td>
+    </tr>
+    <tr>
+      <th scope="row">Basket fryer 1 [340ºF gas, 330ºF electric]</th>
+      <td  id="1234110"></td>
+      <td  id="1234111"></td>
+      <td  id="1234112"></td>
+    </tr>
+     <tr>
+      <th scope="row">Basket fryer 2 [340ºF gas, 330ºF electric]</th>
+      <td  id="1234113"></td>
+      <td  id="1234114"></td>
+      <td  id="1234115"></td>
+    </tr>
+    <tr>
+      <th scope="row">Other fryer/quipment</th>
+      <td  id="1234116"></td>
+      <td  id="1234117"></td>
+      <td  id="1234118"></td>
+    </tr>
+ </div>
+ <!-- ReadytoEatChicken layout. ids for Temp,AC, and Initials table are reTemp,reAC,reInitials[1,2,3,4] -->
+ <div id="ReadytoEatChicken">
+  <thead>
+    <tr>
+      <th scope="col">Ready to Eat Chicken</th>
+      <th scope="col">Temp</th>
+      <th scope="col">AC</th>
+      <th scope="col">Initials</th>
+    </tr>
+  </thead>
+    <tr>
+      <th scope="row">Scipy breast drained for 1 min [165ºF]</th>
+      <td  id="1234119"></td>
+      <td  id="1234120"></td>
+      <td  id="1234121"></td>
+    </tr>
+     <tr>
+      <th scope="row">Mild breast drained for 1 min [165ºF]</th>
+      <td  id="1234122"></td>
+      <td  id="1234123"></td>
+      <td  id="1234124"></td>
+    <tr>
+    <tr>
+      <th scope="row">Tender on the line [160ºF or above]</th>
+      <td  id="1234125"></td>
+      <td  id="1234126"></td>
+      <td  id="1234127"></td>
+    </tr>
+    <tr>
+      <th scope="row">LTO on the line [160ºF or above]</th>
+      <td  id="1234128"></td>
+      <td  id="1234129"></td>
+      <td  id="1234130"></td>
+    </tr>
+ </div>
+ <!-- CoolersTemp layout. ids for Temp,AC, and Initials table are bsTemp,bsAC,bsInitials[1,2,3,4] -->
+ <div id="BatterStation">
+    <thead>
+    <tr>
+      <th scope="col">Batter Station</th>
+      <th scope="col">Temp</th>
+      <th scope="col">AC</th>
+      <th scope="col">Initials</th>
+    </tr>
+  </thead>
+    <tr>
+      <th scope="row">Ice Bath [34º-40ºF]</th>
+      <td  id="1234131"></td>
+      <td  id="1234132"></td>
+      <td  id="1234133"></td>
+    </tr>
+    <tr>
+      <th scope="row">Poultry batter [34º-40ºF]</th>
+      <td  id="1234134"></td>
+      <td  id="1234135"></td>
+      <td  id="1234136"></td>
+    </tr>
+    <tr>
+      <th scope="row">Seasoned chicken 34º-40ºF?</th>
+      <td  id="1234137"></td>
+      <td  id="1234138"></td>
+      <td  id="1234139"></td>
+    </tr>
+    <tr>
+      <th scope="row">Lids present on chicken pans?</th>
+      <td  id="1234140"></td>
+      <td  id="1234141"></td>
+      <td  id="1234142"></td>
+    </tr>
+ </div>
+ <!-- SecondaryBatterStation layout. ids for Temp,AC, and Initials table are cTemp,cAC,cInitials[1,2,3,4] -->
+ <div id="SecondaryBatterStation">
+  <thead>
+    <tr>
+      <th scope="col">Secondary Batter Station/LTO Cart</th>
+      <th scope="col">Temp</th>
+      <th scope="col">AC</th>
+      <th scope="col">Initials</th>
+    </tr>
+  </thead>
+    <tr>
+      <th scope="row">Ice Bath [34º-40ºF]</th>
+      <td  id="1234143"></td>
+      <td  id="1234144"></td>
+      <td  id="1234145"></td>
+    </tr>
+    <tr>
+      <th scope="row">Poultry batter [34º-40ºF]</th>
+      <td  id="1234146"></td>
+      <td  id="1234147"></td>
+      <td  id="1234148"></td>
+    </tr>
+    <tr>
+      <th scope="row">Seasoned chicken 34º-40ºF?</th>
+      <td  id="1234149"></td>
+      <td  id="1234150"></td>
+      <td  id="s1234151"></td>
+    </tr>
+    <tr>
+      <th scope="row">Lids present on chicken pans?</th>
+      <td  id="1234152"></td>
+      <td  id="1234153"></td>
+      <td  id="1234154"></td>
+    </tr>
+</div>
+  </tbody>
+</table>
+<button type="button" class="btn btn-primary" id = "check1234">Store 1234</button><button type="button" class="btn btn-primary" id = "check1235">Store 1235</button><button type="button" class="btn btn-primary" id = "check1236">Store 1236</button><button type="button" class="btn btn-primary" id = "check1237">Store 1237</button><button type="button" class="btn btn-primary" id = "clear">Clear</button>
+
+ 
+
+      <!-- </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" id = "check1234">Save changes</button>
+      </div>
+          </div>
+        </div>
+      </div> -->
+</body>
+</html>

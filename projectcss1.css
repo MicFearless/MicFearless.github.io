@@ -1,0 +1,132 @@
+.namingTag {
+	background-color:#D92E2E;
+	color:white;	
+}
+.nameHead {
+	text-align:center;
+}
+.card-header {
+	background-color:lightgrey;
+	text-align:center;
+	opacity: .7;
+	border-radius: 20px;
+	border-style: groove;
+	border: 5px;
+}
+.card-body {
+	background-color:blue;
+	height:100%;
+	text-align:center;
+}
+
+.card-body:hover {
+	/*background-color:#D92E2E;*/
+}
+#topIntroLeft1 {
+	
+}
+.cardCall {
+	margin-top:1px;
+	height:46%;
+	padding:4px;
+}
+ body {
+ 	position:relative;
+ 	background-color:#E8DDDD;
+ 	background-image: url("popeyes-logo.png");
+ 	background-repeat: no-repeat;
+ 	
+	/*background-image:url("https://images.firstwefeast.com/complex/images/c_limit,f_auto,fl_lossy,q_auto,w_1100/xcnbpr1e475lafy6eay9/popeyes")*/
+} 
+#loginBlock {
+	background-image: url("https://pbs.twimg.com/profile_images/892045859386515456/huvlLQDV.jpg");
+	position: absolute;
+	top:38%;
+	left:38%;
+	height:44%;
+	width:32.2%;
+}
+#imHidden{
+	display:none;
+}
+#setProperties2 {
+	display:none;
+}
+.log-in{
+	position:absolute;
+	left:14%;
+	top:20%;
+}
+.entry {
+	font-weight: bolder;
+	font-size:25px;
+}
+.card-header {
+	width:80%;
+}  
+#position1 {
+	position:relative;
+	top:20px;
+	left:4%;
+	
+}
+#regManagerTop {
+	height:140px;
+}
+/* #salesForecast {
+	position:absolute;
+	top:10%;
+} */
+
+#salesForecast {
+	width:50%;
+
+}
+#sendRecord5{
+	display:none;
+}
+#sendRecord6{
+	display:none;
+}
+#sendRecord7{
+	display:none;
+}
+.modal-body {
+overflow-x:auto;
+}
+#topIntro1 {
+	font-family: 'Carter One';
+	font-size: 180px;
+	text-align: center;
+	color:orange;
+}
+#topIntro1:hover {
+	font-size: 250px;
+	color:#D92E2E;
+}
+/* #propegationBlock {
+	padding-left: 20px
+	margin-left: 200px;
+} */
+
+/* th, td {
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+}
+div {
+    height: 30px;
+    margin-right: -12px;
+    margin-left: -12px;    
+}
+.bottomLine {
+    border-bottom: 1px solid black;
+}
+.smallFontCell {
+    font-size: 7px;
+    vertical-align: middle;
+    padding-top: 7px;
+}
+.table thead th, .table td {
+    vertical-align: middle;
+} */

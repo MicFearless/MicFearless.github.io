@@ -22,7 +22,8 @@
 .card-body:hover {
 	/*background-color:#D92E2E;*/
 }
-#topIntroLeft1 {
+#topIntro1 {
+	height:140px;
 	
 }
 .cardCall {
